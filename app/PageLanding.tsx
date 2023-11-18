@@ -5,7 +5,7 @@ const pageLanding = () => {
   return (
     <div>
     {/* Landing Page */}
-      <section id='Landing' className='flex min-h-screen h-fit justify-end bg-red-200 bg-opacity-20'>
+      <section id='Landing' className='flex min-h-screen h-fit justify-end'>
             {/* Background */}
             <div className='h-screen w-11/12 '>
                 {/* Opacity */}

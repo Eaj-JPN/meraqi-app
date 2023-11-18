@@ -4,7 +4,7 @@ const PageService = () => {
   return (
     <div>
     {/* Service */}
-        <section id='Service' className='min-h-screen h-fit bg-blue-200 bg-opacity-20 flex'>
+        <section id='Service' className='min-h-screen h-fit flex'>
         
           {/* Heading */}
           <div className='h-screen px-4 lg:w-5/12 flex justify-center items-center'>

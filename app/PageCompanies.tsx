@@ -5,7 +5,7 @@ const PageCompanies = () => {
   return (
     <div>
      {/* Companies */}
-        <section id='Companies' className='min-h-screen h-fit bg-yellow-200 bg-opacity-20'>
+        <section id='Companies' className='min-h-screen h-fit '>
           <div className='min-h-screen h-fit flex flex-col justify-center items-center'>
 
             {/* Heading */}

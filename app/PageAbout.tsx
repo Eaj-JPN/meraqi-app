@@ -4,7 +4,7 @@ const PageAbout = () => {
   return (
     <div>
     {/* About */}
-        <section id='About' className='min-h-screen h-fit bg-green-200 bg-opacity-20 flex'>
+        <section id='About' className='min-h-screen h-fit flex'>
             {/* Image */}
             <div className='h-screen w-2/5 flex justify-center items-center'>
                 <div className='bg-black opacity-20 h-4/5 w-full'>

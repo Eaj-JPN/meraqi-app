@@ -4,7 +4,7 @@ const PageVision = () => {
   return (
     <div>
     {/* Vision Mission */}
-        <section id='VissionMission' className='min-h-screen h-fit bg-black bg-opacity-20 flex'>
+        <section id='VissionMission' className='min-h-screen h-fit flex'>
 
           {/* List */}
           <div className='min-h-screen h-fit w-6/12 flex justify-right items-center pl-16 p-8'>
