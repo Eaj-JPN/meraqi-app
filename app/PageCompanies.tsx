@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const PageCompanies = () => {
   return (
-    <div>
+    <div className="font-courier">
      {/* Companies */}
         <section id='Companies' className='min-h-screen h-fit '>
           <div className='min-h-screen h-fit flex flex-col justify-center items-center'>

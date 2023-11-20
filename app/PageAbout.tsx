@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageAbout = () => {
   return (
-    <div>
+    <div className="font-courier">
     {/* About */}
         <section id='About' className='min-h-screen h-fit flex'>
             {/* Image */}

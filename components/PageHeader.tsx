@@ -16,7 +16,7 @@ const smallNavbar = () =>
 
 
   return (
-    <div className='flex w-full h-24 px-8 py-2'>
+    <div className='flex w-full h-24 px-8 py-2 font-courier'>
         <nav className='w-fill h-fill flex flex-wrap items-center sm:justify-between gap-8'>
           {/* Image Top Left */}
           <div>

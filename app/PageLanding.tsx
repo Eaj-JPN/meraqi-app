@@ -3,7 +3,7 @@ import PageHeader from '@/components/PageHeader'
 
 const pageLanding = () => {
   return (
-    <div>
+    <div className="font-courier">
     {/* Landing Page */}
       <section id='Landing' className='flex min-h-screen h-fit justify-end'>
             {/* Background */}

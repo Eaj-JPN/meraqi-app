@@ -2,7 +2,7 @@ import React from 'react'
 
 const PageVision = () => {
   return (
-    <div>
+    <div className="font-courier">
     {/* Vision Mission */}
         <section id='VissionMission' className='min-h-screen h-fit flex'>
 
