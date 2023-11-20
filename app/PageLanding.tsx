@@ -17,11 +17,11 @@ const pageLanding = () => {
                     {/* Details */}
                     <div className='flex-1 w-full flex flex-col justify-center pl-8 gap-y-16'>
 
-                        <h1 className='text-8xl inline-block'>
+                        <h1 className='text-7xl lg:text-8xl inline-block'>
                             meraqi Movement 
                         </h1>
                         
-                        <p className='inline-block w-2/5'>
+                        <p className='inline-block lg:w-2/5'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum vulputate ex, vel malesuada felis venenatis eget. Maecenas fringilla nibh vitae nulla semper, id maximus erat pharetra. Nulla eleifend ligula quis mi varius semper. Vestibulum posuere tristique interdum. Nam aliquet urna lacus, at mattis odio scelerisque vel. Cras vitae ligula nec lectus interdum aliquam vitae nec dui. Curabitur auctor vulputate euismod.
                         </p>
                         
