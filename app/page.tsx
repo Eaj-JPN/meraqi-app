@@ -1,22 +1,20 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import Lenis from '@studio-freight/lenis'
-import { useEffect, useState, useRef } from 'react'
-import { motion,useScroll, useTransform } from "framer-motion"
+import Image from "next/image";
+import Lenis from "@studio-freight/lenis";
+import { useEffect, useState, useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 // Pages
-import PageLanding from './PageLanding';
-import PageAbout from './PageAbout';
-import PageCompanies from './PageCompanies';
-import PageService from './PageService';
-import PageVision from './PageVision';
-import PageFooter from '@/components/PageFooter';
-import ScrollToTopButton from '@/components/ScrollToTopButton'
-
+import PageLanding from "./PageLanding";
+import PageAbout from "./PageAbout";
+import PageCompanies from "./PageCompanies";
+import PageService from "./PageService";
+import PageVision from "./PageVision";
+import PageFooter from "@/components/PageFooter";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 export default function Home() {
-
   // Parralax Effect
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -24,31 +22,30 @@ export default function Home() {
     offset: ["start start", "end start"],
   });
 
-  useEffect ( () => {
-    const lenis = new Lenis()
+  useEffect(() => {
+    const lenis = new Lenis();
 
     function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
+      lenis.raf(time);
+      requestAnimationFrame(raf);
     }
-    requestAnimationFrame(raf)
+    requestAnimationFrame(raf);
   }, []);
 
   return (
-    <main  className="font-courier min-h-screen h-fit bg-no-repeat bg-cover bg-[url(/assets/Bg.jpg)]">
+    <main className="min-h-screen h-fit bg-no-repeat bg-cover bg-[url(/assets/Bg.jpg)]">
+      <PageLanding />
 
-      <PageLanding/>
+      <PageAbout />
 
-      <PageAbout/>
+      <PageService />
 
-      <PageService/>
+      <PageCompanies />
 
-      <PageCompanies/>
+      <PageVision />
 
-      <PageVision/>
-
-      <PageFooter/>
-      <ScrollToTopButton/>
+      <PageFooter />
+      <ScrollToTopButton />
     </main>
-  )
+  );
 }
