@@ -7,7 +7,7 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing" className="flex min-h-screen h-fit justify-end">
         {/* Background */}
-          <div className="flex flex-col min-h-screen w-full ml-32 bg-black bg-opacity-20">
+          <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
 
             {/* Header */}
             <PageHeader />
