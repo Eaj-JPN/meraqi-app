@@ -62,7 +62,7 @@ const PageFooter = () => {
 
 
           <div className="flex flex-col pt-2 bg-black bg-opacity-50 min-h-fit p-8">
-            <div className="w-full h-16 flex justify-center items-center text-white">
+            <div className="w-full h-16 flex justify-center items-center text-white overflow-hidden">
               <div className="text-xs font-bold md:font-normal md:text-sm lg:text-xl text-center p-2">
               © 2023 meraqi
               </div>
