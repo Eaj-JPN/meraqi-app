@@ -9,7 +9,7 @@ const pageLanding = () => {
         {/* Background */}
         <div className="min-h-screen ml-32">
           {/* Opacity */}
-          <div className="flex flex-col min-h-screen w-full bg-black bg-opacity-20">
+          <div className="flex flex-col w-full h-full bg-black bg-opacity-20">
             {/* Header */}
             <PageHeader />
 
