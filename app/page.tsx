@@ -36,13 +36,13 @@ export default function Home() {
     <main className="min-h-screen h-fit ">
       <PageLanding />
 
-      {/* <PageAbout />
+      <PageAbout />
 
       <PageService />
 
       <PageCompanies />
 
-      <PageVision /> */}
+      <PageVision />
 
       {/* <PageFooter /> */}
       <ScrollToTopButton />
