@@ -44,7 +44,7 @@ export default function Home() {
 
       <PageVision />
 
-      {/* <PageFooter /> */}
+      <PageFooter />
       <ScrollToTopButton />
     </main>
   );

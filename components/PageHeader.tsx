@@ -12,12 +12,12 @@ const PageHeader = () => {
   const smallNavbar = () => setMenuIcon(!menuIcon);
 
   return (
-    <div className="flex w-full h-24 px-8 py-2 ">
+    <div className="flex w-full h-24 md:px-8 py-2 ">
       <nav className="w-fill h-fill flex flex-wrap items-center sm:justify-between gap-8">
         {/* Image Top Left */}
         <div>
           <a href="/" onClick={smallNavbar} className="flex items-center">
-            <div className="w-20">
+            <div className="w-16 md:w-20">
               <Image src="/assets/Logo1.png" alt="" width={750} height={500} />
             </div>
           </a>

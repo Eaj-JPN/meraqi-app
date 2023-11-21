@@ -9,7 +9,7 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing">
         {/* Background */}
-          <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
+          <div className="ml-16 md:ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen p-8">
             <PageHeader />
               <div className=" flex-1 flex items-center">
                 <div className="flex flex-col gap-12">
