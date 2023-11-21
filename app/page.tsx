@@ -33,7 +33,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen h-fit bg-no-repeat bg-cover bg-[url(/assets/Bg.jpg)]">
+    <main className="min-h-screen h-fit ">
       <PageLanding />
 
       <PageAbout />

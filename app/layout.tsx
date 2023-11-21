@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={courier.className}>{children}</body>
+      <body className={courier.className}>
+        <div className="bg-no-repeat bg-cover bg-[url(/assets/Bg.jpg)]">
+        {children}
+        </div>
+      </body>
     </html>
   );
 }

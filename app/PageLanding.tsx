@@ -7,19 +7,20 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing" className="flex min-h-screen h-fit justify-end">
         {/* Background */}
-        <div className="h-screen w-11/12 ">
+        <div className="min-h-screen ml-32">
           {/* Opacity */}
-          <div className="flex flex-col h-screen w-full bg-black bg-opacity-20">
+          <div className="flex flex-col min-h-screen w-full bg-black bg-opacity-20">
             {/* Header */}
             <PageHeader />
 
             {/* Details */}
-            <div className="flex-1 w-full flex flex-col justify-center pl-8 gap-y-16">
-              <h1 className="text-7xl lg:text-8xl inline-block">
+            <div className="flex-1 flex flex-col justify-center ml-8 gap-y-16">
+
+              <h1 className="text-5xl lg:text-8xl inline-block">
                 meraqi Movement
               </h1>
 
-              <p className="inline-block lg:w-2/5">
+              <p className="text-sm lg:text-base inline-block md:w-5/6 lg:w-1/2 pr-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 interdum vulputate ex, vel malesuada felis venenatis eget.
                 Maecenas fringilla nibh vitae nulla semper, id maximus erat
