@@ -37,12 +37,14 @@ export default function Home() {
       <PageLanding />
 
       <PageAbout />
-
+      <div id="Service" className="min-h-screen flex justify-center items-center">
       <PageService />
-
+      </div>
       <PageCompanies />
 
+      <div id="Service" className="min-h-screen flex justify-center items-center ">
       <PageVision />
+      </div>
 
       <PageFooter />
       <ScrollToTopButton />

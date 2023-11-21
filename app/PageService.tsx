@@ -4,61 +4,41 @@ const PageService = () => {
   return (
     <div className="">
       {/* Service */}
-      <section id="Service" className="min-h-screen h-fit flex">
-        {/* Heading */}
-        <div className="h-screen px-4 lg:w-5/12 flex justify-center items-center">
-          <h1 className="text-3xl md:text-6xl lg:text-8xl text-left font-bold md:font-normal inline-block lg:w-2/3">
-            Our Services
-          </h1>
+      <section>
+      <div className="flex md:flex-row flex-col mx-8">
+        
+        <div className="flex-1 md:text-8xl text-6xl text-center p-4 md:border-r-2 md:border-b-0 border-b-2 border-r-0 border-dashed border-black flex items-center justify-center">
+          Our Services
         </div>
 
-        {/* Dividers */}
-        <div className="h-screen w-1/12 flex justify-center items-center">
-          <div className="h-full flex justify-center w-1 items-center text-black">
-            | | | | | | | | | | | | | | | | | | | | | | | | |
+        <div className="flex-1 p-8 flex flex-col gap-12">
+          <div>
+            <div className="font-bold text-xl">Lorem Ipsum</div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui
+              leo, luctus sed nulla sed, gravida ultrices nisl. Integer vel ligula
+              ut orci tempus sodales nec in quam
+            </div>
+          </div>
+          <div>
+            <div className="font-bold text-xl">Lorem Ipsum</div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui
+              leo, luctus sed nulla sed, gravida ultrices nisl. Integer vel ligula
+              ut orci tempus sodales nec in quam
+            </div>
+          </div>
+          <div>
+            <div className="font-bold text-xl">Lorem Ipsum</div>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dui
+              leo, luctus sed nulla sed, gravida ultrices nisl. Integer vel ligula
+              ut orci tempus sodales nec in quam
+            </div>
           </div>
         </div>
 
-        {/* List */}
-        <div className="h-screen pl-4 lg:w-6/12 flex justify-center items-center pr-2">
-          <ul>
-            {/* List Item */}
-            <li className="pb-10">
-              <h1 className="text-base md:text-2xl inline-block font-bold pb-2">
-                Lorem Ipsum
-              </h1>
-              <p className="text-sm md:text-base lg:w-4/5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                dui leo, luctus sed nulla sed, gravida ultrices nisl. Integer
-                vel ligula ut orci tempus sodales nec in quam.
-              </p>
-            </li>
-
-            {/* List Item */}
-            <li className="pb-10">
-              <h1 className="text-base md:text-2xl inline-block font-bold pb-2">
-                Lorem Ipsum
-              </h1>
-              <p className="text-sm md:text-base lg:w-4/5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                dui leo, luctus sed nulla sed, gravida ultrices nisl. Integer
-                vel ligula ut orci tempus sodales nec in quam.
-              </p>
-            </li>
-
-            {/* List Item */}
-            <li className="pb-10">
-              <h1 className="text-base md:text-2xl inline-block font-bold pb-2">
-                Lorem Ipsum
-              </h1>
-              <p className="text-sm md:text-base lg:w-4/5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                dui leo, luctus sed nulla sed, gravida ultrices nisl. Integer
-                vel ligula ut orci tempus sodales nec in quam.
-              </p>
-            </li>
-          </ul>
-        </div>
+      </div>
       </section>
     </div>
   );
