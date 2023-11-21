@@ -9,17 +9,17 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing">
         {/* Background */}
-          {/* <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
+          <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
 
             <PageHeader />
 
             <div className="flex-1 flex flex-col justify-center ml-8 gap-y-16">
 
-              <h1 className="text-5xl lg:text-8xl inline-block">
+              <h1 className="text-5xl lg:text-8xl">
                 meraqi Movement
               </h1>
 
-              <p className="text-sm lg:text-base inline-block md:w-5/6 lg:w-1/2 pr-4">
+              <p className="text-sm lg:text-base md:w-5/6 lg:w-1/2 pr-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                 interdum vulputate ex, vel malesuada felis venenatis eget.
                 Maecenas fringilla nibh vitae nulla semper, id maximus erat
@@ -31,14 +31,14 @@ const pageLanding = () => {
               </p>
             </div>
 
-          </div> */}
+          </div>
 
-          <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
+          {/* <div className="ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen">
           <PageHeader />
                   <div className=" flex-1 flex items-center">
                     <div className="flex flex-col gap-12">
                       <div className="md:text-8xl text-4xl">meraqi Movement</div>
-                      <div className="max-w-lg">
+                      <div className="max-w-4xl">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                         interdum vulputate ex, vel malesuada felis venenatis eget.
                         Maecenas fringilla nibh vitae nulla semper, id maximus erat
@@ -49,7 +49,7 @@ const pageLanding = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+          </div> */}
       </section>
     </div>
   );
