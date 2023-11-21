@@ -7,7 +7,9 @@ const PageFooter = () => {
   return (
     <div className="">
       {/* Footer */}
-      <section className="h-32 bg-black bg-opacity-50 flex flex-col justify-center items-center">
+      <section className="w-full h-32 bg-black bg-opacity-50 flex flex-col justify-center items-center">
+
+        {/* Items Container */}
         <div className="w-11/12 h-16 flex justify-center items-center text-white">
           <div className="text-xs font-bold md:font-normal md:text-sm lg:text-xl text-center p-2">
             © 2023 meraqi

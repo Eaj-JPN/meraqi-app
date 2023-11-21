@@ -7,7 +7,8 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing" className="flex min-h-screen h-fit justify-end">
         {/* Background */}
-          <div className="flex flex-col min-h-screen ml-32 bg-black bg-opacity-20">
+          <div className="flex flex-col min-h-screen w-full ml-32 bg-black bg-opacity-20">
+
             {/* Header */}
             <PageHeader />
 
@@ -29,6 +30,7 @@ const pageLanding = () => {
                 euismod.
               </p>
             </div>
+
           </div>
       </section>
     </div>
