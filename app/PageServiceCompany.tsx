@@ -10,7 +10,7 @@ const PageServiceCompany = () => {
         <div className="min-h-screen h-fit flex flex-col justify-center items-center">
           {/* Heading */}
           <h1 className="text-6xl lg:text-8xl font-bold md:font-normal pb-16 p-8 text-center">
-            Our Services
+            Our Services & Companies
           </h1>
 
           {/* Container Logo */}

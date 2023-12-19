@@ -54,20 +54,7 @@ const PageHeader = () => {
               About Us
             </Link>
           </li>
-          <li>
-            <Link
-              href="/"
-              activeClass="active"
-              spy={true}
-              to="Service"
-              smooth={true}
-              offset={0}
-              duration={1000}
-              className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 hover:bg-opacity-30 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0"
-            >
-              Services
-            </Link>
-          </li>
+
           <li>
             <Link
               href="/"
@@ -79,7 +66,7 @@ const PageHeader = () => {
               duration={1000}
               className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 hover:bg-opacity-30 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0"
             >
-              Our Companies
+              Our Service & Companies
             </Link>
           </li>
           <li>
