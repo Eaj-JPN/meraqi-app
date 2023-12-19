@@ -9,30 +9,29 @@ const pageLanding = () => {
       {/* Landing Page */}
       <section id="Landing">
         {/* Background */}
-          <div className="ml-16 md:ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen p-8">
-            <PageHeader />
-              <div className=" flex-1 flex items-center">
-                <div className="flex flex-col gap-12">
+        <div className="ml-16 md:ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen p-8">
+          <PageHeader />
+          <div className=" flex-1 flex items-center">
+            <div className="flex flex-col gap-12">
+              {/* Title */}
+              <div className="md:text-8xl text-4xl">meraqi Movement</div>
 
-                  {/* Title */}
-                  <div className="md:text-8xl text-4xl">
-                    meraqi Movement
-                  </div>
-
-                  {/* Description */}
-                  <div className="max-w-4xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                    interdum vulputate ex, vel malesuada felis venenatis eget.
-                    Maecenas fringilla nibh vitae nulla semper, id maximus erat
-                    pharetra. Nulla eleifend ligula quis mi varius semper. Vestibulum
-                    posuere tristique interdum. Nam aliquet urna lacus, at mattis odio
-                    scelerisque vel. Cras vitae ligula nec lectus interdum aliquam
-                    vitae nec dui. Curabitur auctor vulputate euismod.
-                  </div>
-                    
-                </div>
+              {/* Description */}
+              <div className="max-w-4xl">
+                Meraqi Comes from the Greek work Meraki : To do something with
+                soul, creativity, or love; to put something of yourself in your
+                work. To love what you do, is to do it well.
               </div>
+              <div className="max-w-4xl">
+                We Love what we do and we pour all our heart and soul in all our
+                ventures. Our main line of work is in Food and Beverages, that
+                comes from Heena’s love and passion for Food. Together Anand and
+                Heena have assembled like-minded individuals to embark together
+                in this extraordinary journey.
+              </div>
+            </div>
           </div>
+        </div>
       </section>
     </div>
   );

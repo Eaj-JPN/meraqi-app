@@ -13,6 +13,7 @@ import PageService from "./PageService";
 import PageVision from "./PageVision";
 import PageFooter from "@/components/PageFooter";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import PageServiceCompany from "./PageServiceCompany";
 
 export default function Home() {
   // Parralax Effect
@@ -37,13 +38,23 @@ export default function Home() {
       <PageLanding />
 
       <PageAbout />
-      <div id="Service" className="min-h-screen flex justify-center items-center">
-      <PageService />
-      </div>
-      <PageCompanies />
 
-      <div id="Service" className="min-h-screen flex justify-center items-center ">
-      <PageVision />
+      {/* <div
+        id="Service"
+        className="min-h-screen flex justify-center items-center"
+      >
+        <PageService />
+      </div>
+
+      <PageCompanies /> */}
+
+      <PageServiceCompany />
+
+      <div
+        id="Vision"
+        className="min-h-screen flex justify-center items-center "
+      >
+        <PageVision />
       </div>
 
       <PageFooter />
