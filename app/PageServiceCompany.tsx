@@ -24,7 +24,7 @@ const PageServiceCompany = () => {
               {/* Logo */}
               <Link href={"#"} className="w-24 md:w-48 text-center">
                 <Image
-                  src="/assets/Logo1.png"
+                  src="/assets/LogoHause.png"
                   alt=""
                   width={750}
                   height={500}
@@ -35,7 +35,7 @@ const PageServiceCompany = () => {
               {/* Logo */}
               <Link href={"#"} className="w-24 md:w-48 text-center">
                 <Image
-                  src="/assets/Logo1.png"
+                  src="/assets/LogoBTS.png"
                   alt=""
                   width={750}
                   height={500}
@@ -53,7 +53,7 @@ const PageServiceCompany = () => {
               {/* Logo */}
               <Link href={"#"} className="w-24 md:w-48 text-center">
                 <Image
-                  src="/assets/Logo1.png"
+                  src="/assets/LogoHybrid.png"
                   alt=""
                   width={750}
                   height={500}

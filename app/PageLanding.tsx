@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import PageNav from "@/components/PageNav";
 
 const pageLanding = () => {
   return (
@@ -10,7 +11,8 @@ const pageLanding = () => {
       <section id="Landing">
         {/* Background */}
         <div className="ml-16 md:ml-32 flex flex-col pt-2 bg-black bg-opacity-20 px-8 min-h-screen p-8">
-          <PageHeader />
+          {/* <PageHeader /> */}
+          <PageNav />
           <div className=" flex-1 flex items-center">
             <div className="flex flex-col gap-12">
               {/* Title */}

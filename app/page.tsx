@@ -39,15 +39,6 @@ export default function Home() {
 
       <PageAbout />
 
-      {/* <div
-        id="Service"
-        className="min-h-screen flex justify-center items-center"
-      >
-        <PageService />
-      </div>
-
-      <PageCompanies /> */}
-
       <PageServiceCompany />
 
       <div
