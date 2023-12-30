@@ -28,7 +28,7 @@ const PageNav = () => {
   }, []);
   return (
     <>
-      <div className="flex w-full h-24 md:px-8 py-2 space-x-8">
+      <div className="flex w-full h-24 px-4 lg:px-8 py-2 space-x-8">
         <Image
           src="/assets/Logo1.png"
           className="w-16 h-16 lg:w-20 lg:h-20"
@@ -111,7 +111,7 @@ const PageNav = () => {
                 className="w-20 h-auto"
               />
             </SheetHeader>
-            <div className="flex flex-col gap-y-8 py-4">
+            <div className="flex flex-col gap-y-8 py-4 text-xl">
               <Link
                 href="/"
                 activeClass="active"
